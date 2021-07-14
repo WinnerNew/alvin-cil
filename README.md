@@ -8,7 +8,7 @@
 
 ## 使用
 
-### al create <name> [-f|--force]
+### al create < name > [-f|--force]
 
 ## Options
 

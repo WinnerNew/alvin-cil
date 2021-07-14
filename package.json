@@ -9,7 +9,18 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "alvinliu",
+   "files": [
+    "bin"
+  ],
+  "author": {
+    "name": "Alvin-Liu",
+    "email": "775405088@qq.com"
+  },
+  "keywords": [
+    "alvin-cli",
+    "al",
+    "脚手架"
+  ],
   "license": "ISC",
   "dependencies": {
     "axios": "^0.21.1",

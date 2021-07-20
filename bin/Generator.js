@@ -93,7 +93,7 @@ class Generator {
     async download(repo, tag) {
 
         // 1）拼接下载地址
-        const requestUrl = `alvin-cli/${repo}${tag ? '#' + tag : ''}`;
+        const requestUrl = `alvin-org/${repo}${tag ? '#' + tag : ''}`;
         console.log(this.targetDir)
         // 2）调用下载方法
         await wrapLoading(

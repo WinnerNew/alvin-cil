@@ -13,7 +13,7 @@ axios.interceptors.response.use(res => {
  * @returns Promise
  */
 async function getRepoList() {
-  return axios.get('https://api.github.com/orgs/zhurong-cli/repos')
+  return axios.get('https://api.github.com/orgs/alvin-org/repos')
 }
 
 /**
@@ -22,7 +22,7 @@ async function getRepoList() {
  * @returns Promise
  */
 async function  getTagList(repo) {
-  return axios.get(`https://api.github.com/repos/zhurong-cli/${repo}/tags`)
+  return axios.get(`https://api.github.com/repos/alvin-org/${repo}/tags`)
 }
 
 module.exports = {

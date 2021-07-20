@@ -12,7 +12,7 @@ program
     .option('-f, --force', 'overwrite target directory if it exist')
     .action((name, options) => {
         // 在 create.js 中执行创建任务
-        require('../bin/create')(name, options)
+        require('../lib/create.js')(name, options)
     })
 
 // 配置 config 命令
